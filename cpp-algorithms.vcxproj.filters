@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sequences">
+      <UniqueIdentifier>{75037b10-6c3b-449f-9218-49c16c7cc78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sequences\increasing">
+      <UniqueIdentifier>{b8a87401-c74c-403d-b7e9-ff658bf025a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sequences">
+      <UniqueIdentifier>{adcf87f6-fc4a-4ec3-9b03-d79bd50151fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sequences\increasing">
+      <UniqueIdentifier>{5dbf2214-6596-43b1-8c7a-bda645487a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sequences\decreasing">
+      <UniqueIdentifier>{217ceed7-a443-4ede-9ac4-7e392b2a99a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sequences\decreasing">
+      <UniqueIdentifier>{4270eddd-6656-4b02-a127-c5ef8f9c5e54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LongestIncreasingSequence.h">
+      <Filter>Header Files\sequences\increasing</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestIncreasingPositiveSequence.h">
+      <Filter>Header Files\sequences\increasing</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestIncreasingNegativeSequence.h">
+      <Filter>Header Files\sequences\increasing</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestPositiveSequence.h">
+      <Filter>Header Files\sequences</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestNegativeSequence.h">
+      <Filter>Header Files\sequences</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cpp-algorithms.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingSequence.cpp">
+      <Filter>Source Files\sequences\increasing</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingPositiveSequence.cpp">
+      <Filter>Source Files\sequences\increasing</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingNegativeSequence.cpp">
+      <Filter>Source Files\sequences\increasing</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPositiveSequence.cpp">
+      <Filter>Source Files\sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestNegativeSequence.cpp">
+      <Filter>Source Files\sequences</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
